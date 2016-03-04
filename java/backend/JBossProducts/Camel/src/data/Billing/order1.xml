@@ -1,0 +1,65 @@
+<order>
+	<customer>
+		<id>customer 1</id>
+		<address>
+			<street>
+				street1
+			</street>
+			<flat>flat1</flat>
+		</address>
+		<mobile>+20129949</mobile>
+		<nationalNumber>N231232</nationalNumber>
+	</customer>
+	<items>
+	
+		<item>
+			<id>wedget1</id>
+			<price>100</price>
+			<quantity>3</quantity>
+			<type>Widget</type>
+		<amount>3</amount></item>
+		
+		<item>
+
+			<id>wedget2</id>
+			<price>200</price>
+			<quantity>2</quantity>
+			<type>Widget</type>
+
+		<amount>2</amount></item>
+		<item>
+
+			<id>wedget3</id>
+			<price>300</price>
+			<quantity>1</quantity>
+			<type>Widget</type>
+
+		<amount>1</amount></item>
+		<item>
+
+
+			<id>gadget1</id>
+			<price>300</price>
+			<quantity>3</quantity>
+			<type>Gadget</type>
+		<amount>3</amount></item>
+		<item>
+
+			<id>gadget2</id>
+			<price>200</price>
+			<quantity>2</quantity>
+			<type>Gadget</type>
+
+		<amount>2</amount></item>
+		<item>
+
+			<id>gadget3</id>
+			<price>100</price>
+			<quantity>1</quantity>
+			<type>Gadget</type>
+
+		<amount>1</amount></item>
+	</items>
+
+
+</order>

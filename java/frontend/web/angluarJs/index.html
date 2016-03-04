@@ -1,0 +1,38 @@
+<!DOCTYPE html >
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<title>login project</title>
+</head>
+
+<body ng-app="loginApp">
+
+
+<section>
+
+
+ <form class="w3-container" ng-controller="formControl" name="loginForm">
+<h2 class="w3-text-blue">login Form</h2>
+<label class="w3-label w3-text-red">
+ <span ng-show="invalid">Invalid user name or password</span>
+ <span ng-show="!loginForm.name.$valid">user name can't be empty</span>
+</label>
+<p>
+<label  class="w3-label w3-text-blue">User name</label>
+<input  class="w3-input w3-border" type="text" ng-model="user.name" name="name" required></p>
+
+<p>
+<label  class="w3-label w3-text-blue">Password</label>
+<input  class="w3-input w3-border" type="text" ng-model="user.password" name="password">
+</p>
+<button class="w3-btn w3-blue" ng-click="check()">submit</button>
+</form> 
+</section>
+<script src="scripts/login.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml"   
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      
+      >
+<h:head>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css"/>
+<link rel="stylesheet" href="css/mainStyle.css"/>
+<title>login project</title>
+</h:head>
+
+<h:body >
+
+
+<section>
+
+
+ <form class="w3-container" name="loginForm">
+<h2 class="w3-text-blue">login Form</h2>
+<p>
+<label  class="w3-label w3-text-blue">User name</label>
+<input  class="w3-input w3-border" type="text" name="name" required/></p>
+
+<p>
+<label  class="w3-label w3-text-blue">Password</label>
+<input  class="w3-input w3-border" type="text"  name="password"/>
+</p>
+<button class="w3-btn w3-blue" >submit</button>
+</form> 
+
+<h:form class="w3-container">
+        <h3>JSF Login Logout</h3>
+        <h:outputText  class="w3-label w3-text-blue" value="Username" />
+        <h:inputText class="w3-input w3-border" id="username" value="#{user.name}"></h:inputText>
+        <h:message for="username"></h:message>
+        <br /><br />
+         
+        <h:outputText class="w3-label w3-text-blue" value="Password" />
+        <h:inputSecret  class="w3-input w3-border"id="password" value="#{user.password}"></h:inputSecret>
+        <h:message for="password"></h:message>
+        <br /><br />
+         
+        <h:commandButton action="#{user.login}"
+            value="Login"></h:commandButton>
+    </h:form>
+</section>
+</h:body>
+
+</html>

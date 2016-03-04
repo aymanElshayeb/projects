@@ -1,0 +1,7 @@
+package com.ayman.www;
+
+import java.io.Serializable;
+
+public class NavigationController implements Serializable {
+
+}

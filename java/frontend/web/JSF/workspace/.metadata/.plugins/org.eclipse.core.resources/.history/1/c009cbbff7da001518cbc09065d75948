@@ -1,0 +1,39 @@
+package com.ayman.www;
+import javax.faces.bean.ManagedBean;
+@ManagedBean(name = "helloWorld", eager = true)
+public class User {
+	private String name;
+	private String password;
+	
+   public void validate() {
+	   
+	   if(("ayman".equalsIgnoreCase(name)) &&("ayman".equalsIgnoreCase(password))){
+		   
+	   }else{
+		   
+	   }
+	   
+   }
+
+public String getName() {
+	return name;
+}
+
+public void setName(String name) {
+	this.name = name;
+}
+
+public String getPassword() {
+	return password;
+}
+
+public void setPassword(String password) {
+	this.password = password;
+}
+
+	public void login(){
+		//validate
+		//redirect
+	}
+   
+}

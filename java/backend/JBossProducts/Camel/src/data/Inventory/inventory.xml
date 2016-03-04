@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inventory>
+	<item>
+		<id>wedget1</id>
+		<amount>3</amount>
+	</item>
+
+	<item>
+		<id>wedget2</id>
+		<amount>2</amount>
+	</item>
+	<item>
+		<id>wedget3</id>
+		<amount>1</amount>
+	</item>
+	<item>
+		<id>gadget1</id>
+		<amount>3</amount>
+	</item>
+	<item>
+		<id>gadget2</id>
+		<amount>2</amount>
+	</item>
+	<item>
+		<id>gadget3</id>
+		<amount>1</amount>
+	</item>
+</inventory>

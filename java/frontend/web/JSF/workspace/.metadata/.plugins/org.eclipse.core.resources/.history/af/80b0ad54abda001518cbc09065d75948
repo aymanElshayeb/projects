@@ -1,0 +1,11 @@
+package com.ayman.www;
+import javax.faces.bean.ManagedBean;
+@ManagedBean(name = "helloWorld", eager = true)
+public class User {
+   public User() {
+      System.out.println("HelloWorld started!");
+   }
+   public String getMessage() {
+      return "Hello World!";
+   }
+}

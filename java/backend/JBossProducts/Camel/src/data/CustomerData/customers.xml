@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customers>
+
+	<customer>
+		<id>customer 1</id>
+		<address>
+			<street>
+				street1
+			</street>
+			<flat>flat1</flat>
+		</address>
+		<mobile>+20129949</mobile>
+		<nationalNumber>N231232</nationalNumber>
+	</customer>
+
+	<customer>
+		<id>customer 2</id>
+		<address>
+			<street>
+				Street2
+			</street>
+			<flat>flat2</flat>
+		</address>
+		<mobile>+230004</mobile>
+		<nationalNumber>N32423</nationalNumber>
+	</customer>
+
+</customers>
