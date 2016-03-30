@@ -1,0 +1,136 @@
+<html>
+  <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="This application uses to trace family memebers">
+	<meta name="viewport" content="width=device-width">
+	<title>Shuttle Bus Route Today Applicaiton</title>
+	<link type="text/css" rel="stylesheet" href="css/home.css">
+	<script src="http://maps.googleapis.com/maps/api/js"></script>
+	<script src="scripts/mapUtility.js"></script>
+	<script src="scripts/main.js"></script>
+  </head>
+  <body>
+  
+  <table class="headerTable">
+  <tr>
+  <td>
+  <img src="images/1.jpg"></img>
+  </td>
+  <td>
+  <h1>Shuttle Bus Route Today</h1>
+  <div>
+<p>"Shuttle Bus Route Today" application is a mobile applications that can be used by any company that uses its own shuttle busses to deliver its employees to their homes.
+ The application helps the company to organize the routes of the buses dynamically every day so that company can save employees time and also saving its money by cancelling unnecessary busses trips. 
+ There are 2 main actors to application. Employee and Bus Driver. </p>
+ <p>
+ For Employee: He will have the application in his mobile. He should confirm every night whether he will use the bus tomorrow or not . 
+ For Bus Driver: He will have the application in his mobile. Every morning he will see an Google map contains the employees' meeting points today.
+  He should decide the best path to collect them. The company may decide to cancel the trip and joining the lines. 
+ Driver's mobile should also send bus location during its trip so that employee can see the current route of the bus. 
+ This page is simulation to the mobile application. </p>
+ <p>
+ This page is a simulation to "Shuttle Bus Route Today" mobile applicaiton.
+ The first part is the view of the employees to insert their meeting points.
+ The second part is the view to see current bus location and routing. The last part is utility that can be used to get the latitude and langitude of any point in the map		   
+ </p>
+  </div>
+  </td>
+  </tr>
+  </table>
+  
+  
+  
+	<table class="maintable">
+		<tr>
+			<td >
+				
+				<div id="plannedRoute" class="googleMap"></div>
+				<div>
+					This view will be appeared to the Bus driver's Mobile. 
+					Here, The driver will see the planned Route for today
+				</div>
+			</td>
+			
+		<td>
+			<div id="employee_mobile_simulator" width="100%" height="100%" class="celldiv">
+								<div >
+									<p>This controler represents employee's  mobile simulator .
+									Employee inserts his location and says if it will come by bus tommorrow or not
+									 You can use the following points as an example</p>
+									<p>(29.704595299158836, 31.2451171875, 1)</p>
+									<p>(30.050799652359263, 30.986251831054688, 2)</p>					
+									<p>(29.966366320785912, 31.019210815429688, 3)</p>										
+									<p>(29.9616073757439, 30.970458984375, 4)</p>															
+									<p>(29.911113831682933, 30.930461883544922, 5)</p>																				
+									<p>(29.966366320785912, 31.019210815429688, 6)</p>																									
+									<p>(29.854108631555476, 30.806007385253906, 7)</p>																														
+									<p>(29.828497784610132, 30.701980590820312, 8)</p>																																			
+									<p>(29.753488805875087,30.5255126953125, 9)</p>	
+								</div>
+								
+								<input id="employeeLatitude" type="text"  placeholder="Enter latitude">
+								<input id="employeelangitude" type="text"  placeholder="Enter langitude">
+								<input id="employeeID" type="text"  placeholder="Enter employ id">
+								</br>
+								<input type="button"value="come" onclick="insertEmployeeLocation();"></input>
+								<input type="button" value="Not come" onclick="removeEmployeeLocation();"></input>
+								
+			</div>
+		</td>
+
+		</tr>
+		<tr>
+			<td>
+				
+				<div id="currentRoute" class="googleMap"></div>
+				<div>
+					This view will be appeared to Employee.	Here, Employee can see where the bus is now. 
+					The driver's Mobile should send driver's location every while For example 0.5 hour																																											
+				</div>
+			</td>
+			<td>
+			<div id="driver_mobile_simulator" width="100%" height="100%" class="celldiv">
+							<div>
+								<p>	This controler represents driver's mobile simulator. 
+								The driver's mobile should send its location every .5 hours
+								 You can use the following points as an example</p>
+								<p>(29.704595299158836, 31.2451171875, 1)</p>
+								<p>(30.050799652359263, 30.986251831054688, 2)</p>					
+								<p>(29.966366320785912, 31.019210815429688, 3)</p>										
+								<p>(29.9616073757439, 30.970458984375, 4)</p>															
+								<p>(29.911113831682933, 30.930461883544922, 5)</p>																				
+								<p>(29.966366320785912, 31.019210815429688, 6)</p>																									
+								<p>(29.854108631555476, 30.806007385253906, 7)</p>																														
+								<p>(29.828497784610132, 30.701980590820312, 8)</p>																																			
+								<p>(29.753488805875087,30.5255126953125, 9)</p>									
+							</div>
+							
+							<input type="text"  id="busLatitude" placeholder="Enter latitude">
+							<input type="text"  id="busLangitude" placeholder="Enter langitude">
+							</br>
+							<input type="button" value="submit location" onclick="insertRoute();"></input>							
+			</div>
+			</td>		
+		</tr>
+		<tr>
+			<td>
+				
+				<div id="pickPointMap" class="googleMap"></div>
+				<div>
+					This Section is utility to  get Latitude and Longitude of a point in the map.
+					Click in the point you wish to get the location of
+				</div>
+			</td>
+			<td>
+			<div width="100%" height="100%" class="celldiv">
+							<div>
+								You can use this utility to get locations and use it in first or second section
+							</div>
+			</div>
+			</td>		
+		</tr>
+	</table>
+  </body>
+</html>
+

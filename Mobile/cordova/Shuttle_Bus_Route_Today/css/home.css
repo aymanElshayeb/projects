@@ -1,0 +1,21 @@
+body{
+	background-color:#e5ffe5
+}
+.celldiv{
+	margin:20px
+}
+.googleMap{
+	width:100%;
+	height:380px;
+	
+}
+.headerTable{
+	
+}
+table.maintable, table.maintable tr, table.maintable  td{
+	border: 1px solid black;	
+
+}
+.maintable{
+	 width:100% ; height=100%
+}
