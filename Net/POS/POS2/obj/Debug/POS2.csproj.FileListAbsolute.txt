@@ -1,0 +1,11 @@
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\POS2\bin\Debug\POS2.exe.config
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\POS2\bin\Debug\POS2.exe
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\POS2\bin\Debug\POS2.pdb
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\POS2\bin\Debug\ar\POS2.resources.dll
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\POS2\obj\Debug\POS.MainForm.resources
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\POS2\obj\Debug\POS2.Properties.Resources.resources
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\POS2\obj\Debug\POS.MainForm.ar.resources
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\POS2\obj\Debug\POS2.csproj.GenerateResource.Cache
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\POS2\obj\Debug\ar\POS2.resources.dll
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\POS2\obj\Debug\POS2.exe
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\POS2\obj\Debug\POS2.pdb

@@ -1,0 +1,9 @@
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\POS\obj\Debug\POS.mainForm.resources
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\POS\obj\Debug\POS.Properties.Resources.resources
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\POS\obj\Debug\POS.mainForm.ar.resources
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\POS\obj\Debug\POS.csproj.GenerateResource.Cache
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\POS\obj\Debug\ar\POS.resources.dll
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\POS\obj\Debug\POS.exe
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\POS\obj\Debug\POS.pdb
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\POS\bin\Debug\POS.exe.config
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\POS\obj\Debug\POS.csprojResolveAssemblyReference.cache

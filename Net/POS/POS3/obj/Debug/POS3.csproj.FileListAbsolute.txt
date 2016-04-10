@@ -1,0 +1,17 @@
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\POS3\bin\Debug\POS3.exe.config
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\POS3\bin\Debug\POS3.exe
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\POS3\bin\Debug\POS3.pdb
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\POS3\obj\Debug\POS3.Properties.Resources.resources
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\POS3\obj\Debug\POS3.csproj.GenerateResource.Cache
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\POS3\obj\Debug\POS3.exe
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\POS3\obj\Debug\POS3.pdb
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\POS3\obj\Debug\POS3.Sales.resources
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\POS3\obj\Debug\POS3.OrderSearch.resources
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\POS3\obj\Debug\POS3.Invoice.resources
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\POS3\obj\Debug\POS3.Items.resources
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\POS3\obj\Debug\POS3.OtherExpenses.resources
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\POS3\obj\Debug\POS3.Suppliers.resources
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\POS3\obj\Debug\POS3._ٌReceipt.resources
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\POS3\obj\Debug\POS3._ٌRegisterExpenses.resources
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\POS3\obj\Debug\POS3.ExpenseUI.resources
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\POS3\obj\Debug\POS3.csprojResolveAssemblyReference.cache

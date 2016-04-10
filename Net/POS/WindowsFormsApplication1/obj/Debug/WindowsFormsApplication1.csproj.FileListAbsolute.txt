@@ -1,0 +1,8 @@
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\AymanDocuments\Personals\free lancing\POS\desktop\POS\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
