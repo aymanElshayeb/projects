@@ -71,11 +71,30 @@ div.productshow{
 	margin:5px 5px 5px 5px;
 	display:inline-block;
 }
-
+div.productshow span{
+	margin-left:10px;
+	
+}
 div.productshow img{
 	
 	width:200px;
 	height: 180px;
 	border: 5px  green;
 }
+table.ordertable{
+	border: 1px  solid green;
+	width:100%;
+	margin-top:10px;
+}
+table.ordertable tr , th, td{
+	border: 1px  solid green;
+	
+	
+}
 
+.submitclass{
+	margin:5px 5px 5px 35%;
+	width: 25%;
+	height:30px;
+	
+}
