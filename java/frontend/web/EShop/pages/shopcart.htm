@@ -1,0 +1,36 @@
+
+<table class="ordertable">
+
+  <tr>
+	<th>Product</th>
+	<th>Price</th>
+	<th>quanity</th>
+	<th>Total</th>
+  </tr>
+  <tr ng-repeat="cartItem in cart.cartItems">
+ 
+	<td>
+		<div class="productshow">
+			<img  ng-src="{{cartItem.product.image}}" />
+			<span >{{cartItem.product.name+" " + cartItem.product.price}}</span>
+		</div>
+	</td>
+		<td>{{cartItem.product.price}}</td>
+		<td>{{ cartItem.amount}}</td>
+		<td>{{cartItem.product.price * cartItem.amount}}</td>
+  </tr>
+  
+  <tr>
+	<td colspan='3'>Total</td>
+	
+	<td>{{cart.Total}}</td>
+  </tr>
+  
+  <tr>
+
+	
+	<td colspan='4' ><input type="button" class="submitclass" value="submit"/></td>
+  </tr>
+</table>
+		
+	
