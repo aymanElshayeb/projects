@@ -154,7 +154,8 @@ mainApp.controller('productsController', function($scope,cartService) {
 				}
 				
 				);
-				if(product==null|| product.length>0){
+
+				if(product!=null&& product.length>0){
 					cartService.addToCart(product[0],$scope.currentUser);		
 				}
 			
