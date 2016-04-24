@@ -1,0 +1,13 @@
+{
+  "name": "toyshopdemo",
+  "version": "0.0.0",
+  "description": "toy shop site. it is a demo site that used only for demo purpose.",
+  "main": "server.js",
+  "repository": "git@github.com:aymanElshayeb/projects.git",
+  "author": "Ayman El-Shaye <ayman.elshayb@gmail.com>",
+  "dependencies": {
+    "async": "~0.2.8",
+    "body-parser": "^1.15.0",
+    "express": "^3.2.6"
+  }
+}

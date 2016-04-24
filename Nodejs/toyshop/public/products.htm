@@ -1,0 +1,21 @@
+<div class="productMenu">
+	
+		<ul>
+		  <li><a href="#" ng-click="filter('baby')">baby toys</a></li>
+		  <li><a href="#" ng-click="filter('child')">child toys</a></li>
+	
+		</ul>
+	
+		</div>
+		
+		<div class="productArea">
+		
+		<div class="productshow" ng-repeat="product in products | filter: search">
+				<img  ng-src="{{product.image}}" />
+				<span >{{product.name+" " + product.price}}</span>
+				<a href="#"  ng-click="addToCart(product.id)">Add to cart</a>		
+				
+			</div>
+
+		
+		</div>
