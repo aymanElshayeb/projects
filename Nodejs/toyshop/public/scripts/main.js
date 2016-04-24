@@ -168,7 +168,10 @@ mainApp.controller('shopcartController', function($scope,cartService) {
 	$scope.cart=cartService.getCart();
 	//submit cart
 	$scope.submitCart= function(){
-				
+				if($scope.cart.cartItems.length<1){
+					alert("No toy in the cart");
+					return;
+				}
 				//submit cart
 				cartService.submitCart();				
 				//delete cart from session
