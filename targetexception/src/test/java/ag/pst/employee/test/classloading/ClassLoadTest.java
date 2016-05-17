@@ -21,9 +21,9 @@ public class ClassLoadTest {
 	 *  The main issue in this test case is that the Dummy class  already exists and is loaded by current Thread  loader. 
 	 *  The current thread  loader is a parent loader of each new class loader created in test case.
 	 * so each time new loader try to load Dummy class. It searches for the class in the Current Thread  loader and returns the same class back. 
-	 * To solve this issue ,  i have deleted the Dummy class from the main project then i have added Dummy class in another place than main project path 
-	 * then i have loaded the class by new loader each time . These new loaders are siblings and have the same parent loader.
-	 * To make this test case work , please copy "source" folder which exists in main folder in the project to "c:" directly
+	 * 
+	 * To solve this issue ,  I have gotten the parent loader of the Dummy Class then i have loaded the Dummy Class with 3 new loaders that have the same parent of the Dummy
+	 * By this way, When new loaders search of the dummy class it can't find it at parent because they are sibling of the same parent
 	 * @throws Exception
 	 */
 	@Test
@@ -31,12 +31,14 @@ public class ClassLoadTest {
 		
 		Set<Class<?>> loadedClasses = new HashSet<>();
 		
+		Dummy dummy= new Dummy();
+		
 		
 		//1
 		try{
-			URL url = new File("C:\\source").toURI().toURL();
-			URLClassLoader cl = new URLClassLoader( new URL[]{url} );
-			Object d = cl.loadClass("ag.pst.employee.test.classloading.Dummy").newInstance();
+			URL url = dummy.getClass().getResource("/");
+			URLClassLoader cl = new URLClassLoader( new URL[]{url},dummy.getClass().getClassLoader().getParent() );
+			Object d = cl.loadClass(Dummy.class.getName()).newInstance();
 			Assert.assertNotNull(d);
 			loadedClasses.add(d.getClass());
 			cl.close();
@@ -49,9 +51,9 @@ public class ClassLoadTest {
 		
 		//2
 		try{
-			URL url = new File("C:\\source").toURI().toURL();
-			URLClassLoader cl = new URLClassLoader( new URL[]{url} );
-			Object d = cl.loadClass("ag.pst.employee.test.classloading.Dummy").newInstance();
+			URL url = dummy.getClass().getResource("/");
+			URLClassLoader cl = new URLClassLoader( new URL[]{url},dummy.getClass().getClassLoader().getParent() );
+			Object d = cl.loadClass(Dummy.class.getName()).newInstance();
 			Assert.assertNotNull(d);
 			loadedClasses.add(d.getClass());
 			cl.close();
@@ -64,9 +66,9 @@ public class ClassLoadTest {
 		
 		//3
 		try{
-			URL url = new File("C:\\source").toURI().toURL();
-			URLClassLoader cl = new URLClassLoader( new URL[]{url} );
-			Object d = cl.loadClass("ag.pst.employee.test.classloading.Dummy").newInstance();
+			URL url = dummy.getClass().getResource("/");
+			URLClassLoader cl = new URLClassLoader( new URL[]{url},dummy.getClass().getClassLoader().getParent() );
+			Object d = cl.loadClass(Dummy.class.getName()).newInstance();
 			Assert.assertNotNull(d);
 			loadedClasses.add(d.getClass());
 			cl.close();
